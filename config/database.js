@@ -1,4 +1,7 @@
+const parse = require('pg-connection-string').parse;
+
 const devConnections = function (env) {
+  const config = parse(env("DATABASE_URL"));
   if(!env)
     return console.error("Underfind .env");
   return {
@@ -6,15 +9,17 @@ const devConnections = function (env) {
       connector: 'bookshelf',
       settings: {
         client: 'postgres',
-        host: env("HOST"),
-        database: env("DATABASE_NAME"),
-        username: env("DATABASE_USERNAME"),
-        password: env("DATABASE_PASSWORD"),
+        host: config.host,
+        port: config.port,
+        database: config.database,
+        username: config.user,
+        password: config.password,
+        ssl: { rejectUnauthorized: false }
       },
       options: {
         debug: false,
         useNullAsDefault: true,
-        strict: true
+        strict: true,
       },
     }
   }
