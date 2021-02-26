@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "details",
+  "info": {
+    "name": "Detail",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false,
+    "timestamps": true,
+    "increments": true,
+    "comment": ""
+  },
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Text": {
+      "type": "richtext"
+    },
+    "Position": {
+      "type": "biginteger"
+    },
+    "IdDetail": {
+      "type": "uid"
+    }
+  }
+}
