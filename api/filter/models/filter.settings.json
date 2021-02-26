@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "filters",
+  "info": {
+    "name": "Filter",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "IdFilter": {
+      "type": "uid"
+    },
+    "category_filters": {
+      "via": "filter",
+      "collection": "category-filter"
+    }
+  }
+}
