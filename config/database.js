@@ -3,7 +3,7 @@ const parse = require('pg-connection-string').parse;
 const devConnections = function (env) {
   const config = parse(env("DATABASE_URL"));
   if(!env)
-    return console.error("Underfind .env");
+    return console.error("Undefined .env");
   return {
     default: {
       connector: 'bookshelf',

@@ -23,6 +23,11 @@
     },
     "IdDetail": {
       "type": "uid"
+    },
+    "products": {
+      "via": "details",
+      "collection": "product",
+      "dominant": true
     }
   }
 }

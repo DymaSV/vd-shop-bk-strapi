@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "shop_users",
+  "info": {
+    "name": "ShopUser",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Email": {
+      "type": "email"
+    },
+    "Password": {
+      "type": "password"
+    },
+    "Name": {
+      "type": "string"
+    },
+    "orders": {
+      "collection": "order",
+      "via": "shop_user"
+    },
+    "user_delivery_adresses": {
+      "collection": "user-delivery-adress",
+      "via": "shop_user"
+    },
+    "reviews": {
+      "collection": "review",
+      "via": "shop_user"
+    }
+  }
+}

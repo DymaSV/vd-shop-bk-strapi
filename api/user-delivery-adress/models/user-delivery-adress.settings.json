@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "user_delivery_adresses",
+  "info": {
+    "name": "UserDeliveryAdress"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "IdUserDeliveryAdress": {
+      "type": "uid"
+    },
+    "Country": {
+      "type": "string"
+    },
+    "Region": {
+      "type": "string"
+    },
+    "City": {
+      "type": "string"
+    },
+    "Street": {
+      "type": "string"
+    },
+    "Number": {
+      "type": "string"
+    },
+    "Index": {
+      "type": "string"
+    },
+    "shop_user": {
+      "via": "user_delivery_adresses",
+      "model": "shop-user"
+    }
+  }
+}

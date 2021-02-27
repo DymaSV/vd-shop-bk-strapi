@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "reviews",
+  "info": {
+    "name": "Review"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "IdReview": {
+      "type": "uid"
+    },
+    "Title": {
+      "type": "string"
+    },
+    "Text": {
+      "type": "richtext"
+    },
+    "Star": {
+      "type": "integer"
+    },
+    "Date": {
+      "type": "datetime"
+    },
+    "product": {
+      "via": "reviews",
+      "model": "product"
+    },
+    "shop_user": {
+      "via": "reviews",
+      "model": "shop-user"
+    }
+  }
+}

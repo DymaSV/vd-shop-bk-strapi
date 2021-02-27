@@ -16,10 +16,6 @@
     },
     "IdFilter": {
       "type": "uid"
-    },
-    "category_filters": {
-      "via": "filter",
-      "collection": "category-filter"
     }
   }
 }

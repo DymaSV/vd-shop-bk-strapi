@@ -23,9 +23,10 @@
     "IdCategory": {
       "type": "uid"
     },
-    "category_filters": {
-      "via": "category",
-      "collection": "category-filter"
+    "products": {
+      "via": "categories",
+      "collection": "product",
+      "dominant": true
     }
   }
 }

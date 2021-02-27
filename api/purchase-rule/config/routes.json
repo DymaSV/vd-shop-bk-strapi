@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/purchase-rules",
+      "handler": "purchase-rule.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/purchase-rules/count",
+      "handler": "purchase-rule.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/purchase-rules/:id",
+      "handler": "purchase-rule.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/purchase-rules",
+      "handler": "purchase-rule.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/purchase-rules/:id",
+      "handler": "purchase-rule.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/purchase-rules/:id",
+      "handler": "purchase-rule.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
