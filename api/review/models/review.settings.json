@@ -29,9 +29,10 @@
       "via": "reviews",
       "model": "product"
     },
-    "shop_user": {
+    "user": {
       "via": "reviews",
-      "model": "shop-user"
+      "plugin": "users-permissions",
+      "model": "user"
     }
   }
 }

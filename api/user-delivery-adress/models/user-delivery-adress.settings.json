@@ -31,9 +31,10 @@
     "Index": {
       "type": "string"
     },
-    "shop_user": {
+    "user": {
       "via": "user_delivery_adresses",
-      "model": "shop-user"
+      "plugin": "users-permissions",
+      "model": "user"
     }
   }
 }

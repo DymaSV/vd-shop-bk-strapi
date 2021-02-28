@@ -31,9 +31,10 @@
       "collection": "product",
       "dominant": true
     },
-    "shop_user": {
+    "user": {
       "via": "orders",
-      "model": "shop-user"
+      "plugin": "users-permissions",
+      "model": "user"
     }
   }
 }
