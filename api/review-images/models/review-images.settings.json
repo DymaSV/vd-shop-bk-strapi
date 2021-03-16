@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "review_images",
+  "info": {
+    "name": "ReviewImages"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "IdReviewImage": {
+      "type": "uid"
+    },
+    "Link": {
+      "type": "string"
+    },
+    "review": {
+      "model": "review",
+      "via": "review_images"
+    }
+  }
+}

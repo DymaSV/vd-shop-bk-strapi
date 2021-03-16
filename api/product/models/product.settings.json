@@ -44,8 +44,8 @@
       "via": "products"
     },
     "categories": {
-      "collection": "category",
-      "via": "products"
+      "via": "products",
+      "collection": "category"
     },
     "orders": {
       "collection": "order",

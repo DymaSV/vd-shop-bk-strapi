@@ -11,9 +11,6 @@
     "draftAndPublish": true
   },
   "attributes": {
-    "Name": {
-      "type": "string"
-    },
     "Information": {
       "type": "richtext"
     },
@@ -24,9 +21,12 @@
       "type": "uid"
     },
     "products": {
-      "via": "categories",
       "collection": "product",
+      "via": "categories",
       "dominant": true
+    },
+    "Name": {
+      "type": "json"
     }
   }
 }

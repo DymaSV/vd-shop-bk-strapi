@@ -33,6 +33,10 @@
       "via": "reviews",
       "plugin": "users-permissions",
       "model": "user"
+    },
+    "review_images": {
+      "via": "review",
+      "collection": "review-images"
     }
   }
 }
