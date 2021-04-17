@@ -6,18 +6,12 @@
     "description": ""
   },
   "options": {
-    "draftAndPublish": false,
+    "draftAndPublish": true,
     "timestamps": true,
     "increments": true,
     "comment": ""
   },
   "attributes": {
-    "Title": {
-      "type": "string"
-    },
-    "Text": {
-      "type": "richtext"
-    },
     "Position": {
       "type": "biginteger"
     },
@@ -25,9 +19,15 @@
       "type": "uid"
     },
     "products": {
-      "via": "details",
       "collection": "product",
+      "via": "details",
       "dominant": true
+    },
+    "Title": {
+      "type": "json"
+    },
+    "Text": {
+      "type": "json"
     }
   }
 }

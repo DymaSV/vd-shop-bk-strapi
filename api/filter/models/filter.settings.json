@@ -11,11 +11,11 @@
     "draftAndPublish": true
   },
   "attributes": {
-    "Name": {
-      "type": "string"
-    },
     "IdFilter": {
       "type": "uid"
+    },
+    "Name": {
+      "type": "json"
     }
   }
 }

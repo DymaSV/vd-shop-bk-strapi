@@ -11,17 +11,8 @@
     "draftAndPublish": true
   },
   "attributes": {
-    "Name": {
-      "type": "string"
-    },
-    "Description": {
-      "type": "richtext"
-    },
     "Price": {
       "type": "decimal"
-    },
-    "SpecialInfo": {
-      "type": "text"
     },
     "IsOnStock": {
       "type": "boolean"
@@ -36,12 +27,12 @@
       "type": "uid"
     },
     "purchase_rule": {
-      "model": "purchase-rule",
-      "via": "products"
+      "via": "products",
+      "model": "purchase-rule"
     },
     "details": {
-      "collection": "detail",
-      "via": "products"
+      "via": "products",
+      "collection": "detail"
     },
     "categories": {
       "via": "products",
@@ -54,6 +45,15 @@
     "reviews": {
       "collection": "review",
       "via": "product"
+    },
+    "Name": {
+      "type": "json"
+    },
+    "Description": {
+      "type": "json"
+    },
+    "SpecialInfo": {
+      "type": "json"
     }
   }
 }

@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "purchase_rules",
   "info": {
-    "name": "PurchaseRule"
+    "name": "PurchaseRule",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -10,18 +11,18 @@
     "draftAndPublish": true
   },
   "attributes": {
-    "Title": {
-      "type": "string"
-    },
-    "Text": {
-      "type": "text"
-    },
     "IdPurchaseRule": {
       "type": "uid"
     },
     "products": {
-      "via": "purchase_rule",
-      "collection": "product"
+      "collection": "product",
+      "via": "purchase_rule"
+    },
+    "Title": {
+      "type": "json"
+    },
+    "Text": {
+      "type": "json"
     }
   }
 }

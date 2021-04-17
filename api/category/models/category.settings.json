@@ -11,9 +11,6 @@
     "draftAndPublish": true
   },
   "attributes": {
-    "Information": {
-      "type": "richtext"
-    },
     "IdParentCategory": {
       "type": "uid"
     },
@@ -26,6 +23,9 @@
       "dominant": true
     },
     "Name": {
+      "type": "json"
+    },
+    "Information": {
       "type": "json"
     }
   }

@@ -8,16 +8,16 @@
 const { sanitizeEntity } = require('strapi-utils');
 
 module.exports = {
-    async find(ctx) {
-        console.log(strapi.models.category)
+    // async find(ctx) {
+    //     console.log(strapi.models.category)
 
-        const entity = await strapi.services.category.find();
-        // return sanitizeEntity(entity, { model: strapi.models.category });
-        return await strapi
-            .query('category')
-            .model.query(qb => {
-                qb.where('id', 1);
-            })
-            .fetch();
-    },
+    //     const entity = await strapi.services.category.find();
+    //     // return sanitizeEntity(entity, { model: strapi.models.category });
+    //     return await strapi
+    //         .query('category')
+    //         .model.query(qb => {
+    //             qb.where('id', 1);
+    //         })
+    //         .fetch();
+    // },
 };
