@@ -4,7 +4,6 @@
  * Read the documentation (https://strapi.io/documentation/developer-docs/latest/concepts/controllers.html#core-controllers)
  * to customize this controller
  */
-// const { sanitizeEntity } = require('strapi-utils');
 const _ = require('lodash');
 const env = require('dotenv').config({ path: require('find-config')('.env') });
 
@@ -15,14 +14,13 @@ module.exports = {
             lang = 'en'
         }
         const knex = strapi.connections.default;
-        const result = await knex('categories')
+        const result = await knex('details')
             .select(
-                knex.raw('??->? as name', ['Name', lang]),
-                knex.raw('??->? as information', ['Information', lang])
+                knex.raw('??->? as text', ['Text', lang]),
+                knex.raw('??->? as title', ['Title', lang])
             )
         console.log(result)
         return result;
-        // return (_.groupBy(result, 'name'));
     },
 };
 
