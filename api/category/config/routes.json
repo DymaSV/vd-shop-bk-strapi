@@ -2,8 +2,32 @@
   "routes": [
     {
       "method": "GET",
+      "path": "/:lang/categories/getMainCategories",
+      "handler": "category.getMainCategories",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/:lang/categories/getNestedCategories/:parentId",
+      "handler": "category.getNestedCategories",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
       "path": "/:lang/categories",
       "handler": "category.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/categories",
+      "handler": "category.findAll",
       "config": {
         "policies": []
       }
