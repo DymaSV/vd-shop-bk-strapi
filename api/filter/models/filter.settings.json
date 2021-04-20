@@ -16,6 +16,10 @@
     },
     "Name": {
       "type": "json"
+    },
+    "IsActive": {
+      "type": "boolean",
+      "default": false
     }
   }
 }

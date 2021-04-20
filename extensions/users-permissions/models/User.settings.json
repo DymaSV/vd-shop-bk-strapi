@@ -60,16 +60,16 @@
       "configurable": false
     },
     "reviews": {
-      "collection": "review",
-      "via": "user"
+      "via": "user",
+      "collection": "review"
     },
     "user_delivery_adresses": {
       "collection": "user-delivery-adress",
       "via": "user"
     },
     "orders": {
-      "collection": "order",
-      "via": "user"
+      "via": "user",
+      "collection": "order"
     }
   }
 }

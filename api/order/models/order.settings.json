@@ -32,9 +32,13 @@
       "dominant": true
     },
     "user": {
-      "via": "orders",
       "plugin": "users-permissions",
-      "model": "user"
+      "model": "user",
+      "via": "orders"
+    },
+    "IsActive": {
+      "type": "boolean",
+      "default": false
     }
   }
 }

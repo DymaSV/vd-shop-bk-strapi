@@ -31,20 +31,20 @@
       "model": "purchase-rule"
     },
     "details": {
-      "via": "products",
-      "collection": "detail"
+      "collection": "detail",
+      "via": "products"
     },
     "categories": {
-      "via": "products",
-      "collection": "category"
+      "collection": "category",
+      "via": "products"
     },
     "orders": {
       "collection": "order",
       "via": "products"
     },
     "reviews": {
-      "collection": "review",
-      "via": "product"
+      "via": "product",
+      "collection": "review"
     },
     "Name": {
       "type": "json"
@@ -54,6 +54,10 @@
     },
     "SpecialInfo": {
       "type": "json"
+    },
+    "IsActive": {
+      "type": "boolean",
+      "default": false
     }
   }
 }

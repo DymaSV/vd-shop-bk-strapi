@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "reviews",
   "info": {
-    "name": "Review"
+    "name": "Review",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -26,17 +27,21 @@
       "type": "datetime"
     },
     "product": {
-      "via": "reviews",
-      "model": "product"
+      "model": "product",
+      "via": "reviews"
     },
     "user": {
-      "via": "reviews",
       "plugin": "users-permissions",
-      "model": "user"
+      "model": "user",
+      "via": "reviews"
     },
     "review_images": {
-      "via": "review",
-      "collection": "review-images"
+      "collection": "review-images",
+      "via": "review"
+    },
+    "IsActive": {
+      "type": "boolean",
+      "default": false
     }
   }
 }

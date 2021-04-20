@@ -17,8 +17,8 @@
       "type": "string"
     },
     "review": {
-      "model": "review",
-      "via": "review_images"
+      "via": "review_images",
+      "model": "review"
     }
   }
 }

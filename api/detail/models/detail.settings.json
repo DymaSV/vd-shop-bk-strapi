@@ -19,8 +19,8 @@
       "type": "uid"
     },
     "products": {
-      "collection": "product",
       "via": "details",
+      "collection": "product",
       "dominant": true
     },
     "Title": {
@@ -28,6 +28,10 @@
     },
     "Text": {
       "type": "json"
+    },
+    "IsActive": {
+      "type": "boolean",
+      "default": false
     }
   }
 }
