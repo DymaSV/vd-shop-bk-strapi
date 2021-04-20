@@ -1,31 +1,10 @@
 'use strict';
-
 /**
  * Read the documentation (https://strapi.io/documentation/developer-docs/latest/concepts/controllers.html#core-controllers)
  * to customize this controller
  */
-const env = require('dotenv').config({ path: require('find-config')('.env') });
-const languages = env.parsed["LANGUAGES"];
-const defaultLanguage = env.parsed["DEFAULT_LANGUAGE"];
-const isActive = getActiveStatus();
-
-function getActiveStatus() {
-    let isActive = env.parsed["IS_ACTIVE"];
-    if (isActive === 'true') {
-        return true;
-    }
-    if (isActive === 'false') {
-        return false;
-    }
-    return null;
-}
-
-function getLanguage(ctx) {
-    if (!languages.includes(ctx.params.lang)) {
-        return defaultLanguage
-    }
-    return ctx.params.lang;
-}
+const extension = require('../../utilities/extension.js');
+const isActive = extension.getActiveStatus();
 
 module.exports = {
 
@@ -50,7 +29,7 @@ module.exports = {
     //Get all categories, based on language
     //"path": "/:lang/categories"
     async find(ctx) {
-        let lang = getLanguage(ctx);
+        let lang = extension.getLanguage(ctx);
         
         const knex = strapi.connections.default;
         const result = knex('categories')
@@ -70,7 +49,7 @@ module.exports = {
     //Get main categories, based on language. Categories wich don't have IdParentCategory.
     //"path": "/:lang/categories/getMainCategories"
     async getMainCategories(ctx) {
-        let lang = getLanguage(ctx);
+        let lang = extension.getLanguage(ctx);
         
         const knex = strapi.connections.default;
         let result = knex('categories')
@@ -93,7 +72,7 @@ module.exports = {
     //"path": "/:lang/categories/getNestedCategories/:parentId"
     async getNestedCategories(ctx) {
         let parentId = ctx.params.parentId;
-        let lang = getLanguage(ctx);
+        let lang = extension.getLanguage(ctx);
 
         const knex = strapi.connections.default;
         const result = knex('categories')

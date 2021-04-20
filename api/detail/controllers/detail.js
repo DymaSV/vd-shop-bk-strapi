@@ -6,21 +6,22 @@
  */
 const _ = require('lodash');
 const env = require('dotenv').config({ path: require('find-config')('.env') });
+const extension = require('../../utilities/extension.js');
 
 module.exports = {
     async find(ctx) {
-        let lang = ctx.params.lang;
-        if (!env.parsed["LANG"].includes(lang)) {
-            lang = 'en'
-        }
+        let lang = extension.getLanguage(ctx);
+        
         const knex = strapi.connections.default;
-        const result = await knex('details')
+        const result = knex('details')
             .select(
                 knex.raw('??->? as text', ['Text', lang]),
                 knex.raw('??->? as title', ['Title', lang])
             )
-        console.log(result)
-        return result;
+        if (isActive !== null) {
+            result.andWhere('IsActive', isActive)
+        }
+        return await result;
     },
 };
 
