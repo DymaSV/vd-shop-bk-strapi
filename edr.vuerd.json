@@ -1,9 +1,11 @@
 {
   "canvas": {
+    "version": "2.0.7",
     "width": 5000,
     "height": 5000,
-    "scrollTop": 705,
-    "scrollLeft": 1226,
+    "scrollTop": -308,
+    "scrollLeft": -799,
+    "zoomLevel": 1,
     "show": {
       "tableComment": true,
       "columnComment": true,
@@ -21,6 +23,7 @@
     "language": "TypeScript",
     "tableCase": "pascalCase",
     "columnCase": "camelCase",
+    "highlightTheme": "VS2015",
     "setting": {
       "relationshipDataTypeSync": true,
       "columnOrder": [
@@ -137,7 +140,7 @@
           "active": false,
           "left": 11,
           "top": 349,
-          "zIndex": 1507,
+          "zIndex": 14,
           "widthName": 60,
           "widthComment": 60
         },
@@ -221,7 +224,7 @@
           "active": false,
           "left": 491,
           "top": 359,
-          "zIndex": 1428,
+          "zIndex": 11,
           "widthName": 100,
           "widthComment": 60
         },
@@ -466,7 +469,7 @@
           "active": false,
           "left": 990,
           "top": 356,
-          "zIndex": 1524,
+          "zIndex": 18,
           "widthName": 60,
           "widthComment": 60
         },
@@ -573,7 +576,7 @@
           "active": false,
           "left": 117,
           "top": 73,
-          "zIndex": 1417,
+          "zIndex": 10,
           "widthName": 60,
           "widthComment": 60
         },
@@ -657,7 +660,7 @@
           "active": false,
           "left": 593,
           "top": 84,
-          "zIndex": 701,
+          "zIndex": 1,
           "widthName": 80,
           "widthComment": 60
         },
@@ -741,7 +744,7 @@
           "active": false,
           "left": 1522,
           "top": 255,
-          "zIndex": 721,
+          "zIndex": 4,
           "widthName": 83,
           "widthComment": 60
         },
@@ -825,7 +828,7 @@
           "active": false,
           "left": 1353,
           "top": 92,
-          "zIndex": 717,
+          "zIndex": 3,
           "widthName": 92,
           "widthComment": 60
         },
@@ -1001,7 +1004,7 @@
           "active": false,
           "left": 1916,
           "top": 597,
-          "zIndex": 1540,
+          "zIndex": 19,
           "widthName": 60,
           "widthComment": 60
         },
@@ -1085,7 +1088,7 @@
           "active": false,
           "left": 1467,
           "top": 638,
-          "zIndex": 1521,
+          "zIndex": 17,
           "widthName": 80,
           "widthComment": 60
         },
@@ -1192,7 +1195,7 @@
           "active": false,
           "left": 1524,
           "top": 400,
-          "zIndex": 709,
+          "zIndex": 2,
           "widthName": 60,
           "widthComment": 60
         },
@@ -1253,7 +1256,7 @@
           "active": false,
           "left": 1918,
           "top": 393,
-          "zIndex": 1554,
+          "zIndex": 20,
           "widthName": 60,
           "widthComment": 60
         },
@@ -1383,7 +1386,7 @@
           "active": false,
           "left": 2274,
           "top": 840,
-          "zIndex": 1596,
+          "zIndex": 22,
           "widthName": 60,
           "widthComment": 60
         },
@@ -1582,7 +1585,7 @@
           "active": false,
           "left": 2272,
           "top": 1105,
-          "zIndex": 1585,
+          "zIndex": 21,
           "widthName": 117,
           "widthComment": 60
         },
@@ -1712,7 +1715,7 @@
           "active": false,
           "left": 1644,
           "top": 1255,
-          "zIndex": 1514,
+          "zIndex": 15,
           "widthName": 65,
           "widthComment": 60
         },
@@ -1773,7 +1776,7 @@
           "active": false,
           "left": 33,
           "top": 848,
-          "zIndex": 1485,
+          "zIndex": 12,
           "widthName": 60,
           "widthComment": 60
         },
@@ -1857,7 +1860,7 @@
           "active": false,
           "left": 488,
           "top": 520,
-          "zIndex": 1518,
+          "zIndex": 16,
           "widthName": 84,
           "widthComment": 60
         },
@@ -1941,7 +1944,7 @@
           "active": false,
           "left": 633,
           "top": 779,
-          "zIndex": 1380,
+          "zIndex": 6,
           "widthName": 95,
           "widthComment": 60
         },
@@ -2002,7 +2005,7 @@
           "active": false,
           "left": 655,
           "top": 1029,
-          "zIndex": 1381,
+          "zIndex": 7,
           "widthName": 60,
           "widthComment": 60
         },
@@ -2086,7 +2089,7 @@
           "active": false,
           "left": 647,
           "top": 1392,
-          "zIndex": 1386,
+          "zIndex": 8,
           "widthName": 60,
           "widthComment": 60
         },
@@ -2262,7 +2265,7 @@
           "active": false,
           "left": 1103,
           "top": 833,
-          "zIndex": 1599,
+          "zIndex": 23,
           "widthName": 60,
           "widthComment": 60
         },
@@ -2346,7 +2349,7 @@
           "active": false,
           "left": 1443,
           "top": 1094,
-          "zIndex": 1321,
+          "zIndex": 5,
           "widthName": 81,
           "widthComment": 60
         },
@@ -2407,7 +2410,7 @@
           "active": false,
           "left": 1070,
           "top": 1393,
-          "zIndex": 1414,
+          "zIndex": 9,
           "widthName": 79,
           "widthComment": 60
         },
@@ -2491,7 +2494,7 @@
           "active": false,
           "left": 16,
           "top": 595,
-          "zIndex": 1504,
+          "zIndex": 13,
           "widthName": 84,
           "widthComment": 60
         },
@@ -2507,6 +2510,8 @@
     "relationships": [
       {
         "identification": false,
+        "relationshipType": "OneN",
+        "startRelationshipType": "Ring",
         "start": {
           "tableId": "301546f6-617e-6639-b5f6-f6c703a43e80",
           "columnIds": [
@@ -2525,11 +2530,12 @@
           "y": 424.25,
           "direction": "left"
         },
-        "id": "a808f8f5-16df-5c3a-11df-ea1755b14b66",
-        "relationshipType": "N"
+        "id": "a808f8f5-16df-5c3a-11df-ea1755b14b66"
       },
       {
         "identification": false,
+        "relationshipType": "ZeroN",
+        "startRelationshipType": "Ring",
         "start": {
           "tableId": "4f7cd0ff-e04e-93c8-b94e-8f9b4355b803",
           "columnIds": [
@@ -2548,11 +2554,12 @@
           "y": 149.25,
           "direction": "right"
         },
-        "id": "5ddb464b-5c8a-a7dd-2e2e-9a2961600b72",
-        "relationshipType": "ZeroN"
+        "id": "5ddb464b-5c8a-a7dd-2e2e-9a2961600b72"
       },
       {
         "identification": false,
+        "relationshipType": "OneN",
+        "startRelationshipType": "Ring",
         "start": {
           "tableId": "4f7cd0ff-e04e-93c8-b94e-8f9b4355b803",
           "columnIds": [
@@ -2571,11 +2578,12 @@
           "y": 424.25,
           "direction": "right"
         },
-        "id": "e834c0fe-c069-0404-7bbf-cf24a53e9fec",
-        "relationshipType": "N"
+        "id": "e834c0fe-c069-0404-7bbf-cf24a53e9fec"
       },
       {
         "identification": false,
+        "relationshipType": "OneN",
+        "startRelationshipType": "Ring",
         "start": {
           "tableId": "4f7cd0ff-e04e-93c8-b94e-8f9b4355b803",
           "columnIds": [
@@ -2594,11 +2602,12 @@
           "y": 320.25,
           "direction": "left"
         },
-        "id": "9bd929c9-0979-4bd8-3bee-3c26e0027323",
-        "relationshipType": "OneN"
+        "id": "9bd929c9-0979-4bd8-3bee-3c26e0027323"
       },
       {
         "identification": false,
+        "relationshipType": "ZeroOne",
+        "startRelationshipType": "Ring",
         "start": {
           "tableId": "4f7cd0ff-e04e-93c8-b94e-8f9b4355b803",
           "columnIds": [
@@ -2617,11 +2626,12 @@
           "y": 189.875,
           "direction": "left"
         },
-        "id": "6e6900c8-1317-6f24-9ed3-a64d50f00c76",
-        "relationshipType": "ZeroOne"
+        "id": "6e6900c8-1317-6f24-9ed3-a64d50f00c76"
       },
       {
         "identification": false,
+        "relationshipType": "OneN",
+        "startRelationshipType": "Ring",
         "start": {
           "tableId": "678f10e5-a532-30ee-c7dc-c51d990c991b",
           "columnIds": [
@@ -2640,11 +2650,12 @@
           "y": 149.25,
           "direction": "left"
         },
-        "id": "b4f35d04-7165-132b-9745-32fd97d91e9f",
-        "relationshipType": "OneN"
+        "id": "b4f35d04-7165-132b-9745-32fd97d91e9f"
       },
       {
         "identification": false,
+        "relationshipType": "ZeroOne",
+        "startRelationshipType": "Ring",
         "start": {
           "tableId": "4f7cd0ff-e04e-93c8-b94e-8f9b4355b803",
           "columnIds": [
@@ -2663,11 +2674,12 @@
           "y": 124.625,
           "direction": "left"
         },
-        "id": "00bab9e0-e5a1-8090-e7e7-531f5fc9141f",
-        "relationshipType": "ZeroOne"
+        "id": "00bab9e0-e5a1-8090-e7e7-531f5fc9141f"
       },
       {
         "identification": false,
+        "relationshipType": "OneN",
+        "startRelationshipType": "Dash",
         "start": {
           "tableId": "4f7cd0ff-e04e-93c8-b94e-8f9b4355b803",
           "columnIds": [
@@ -2686,11 +2698,12 @@
           "y": 703.25,
           "direction": "left"
         },
-        "id": "c763b3c8-2820-c5bf-3174-b9824d22cfa4",
-        "relationshipType": "OneN"
+        "id": "c763b3c8-2820-c5bf-3174-b9824d22cfa4"
       },
       {
         "identification": false,
+        "relationshipType": "OneN",
+        "startRelationshipType": "Ring",
         "start": {
           "tableId": "4f7cd0ff-e04e-93c8-b94e-8f9b4355b803",
           "columnIds": [
@@ -2709,11 +2722,12 @@
           "y": 475.5,
           "direction": "left"
         },
-        "id": "c0579fd3-d26e-914b-c98f-0c0e389cf9db",
-        "relationshipType": "OneN"
+        "id": "c0579fd3-d26e-914b-c98f-0c0e389cf9db"
       },
       {
         "identification": false,
+        "relationshipType": "ZeroOne",
+        "startRelationshipType": "Ring",
         "start": {
           "tableId": "d0e1212e-fd45-ae42-2fa5-d848d1275fd1",
           "columnIds": [
@@ -2732,11 +2746,12 @@
           "y": 503,
           "direction": "bottom"
         },
-        "id": "91565495-e92d-ec97-e65a-c0437d789a53",
-        "relationshipType": "ZeroOne"
+        "id": "91565495-e92d-ec97-e65a-c0437d789a53"
       },
       {
         "identification": false,
+        "relationshipType": "OneN",
+        "startRelationshipType": "Dash",
         "start": {
           "tableId": "d0e1212e-fd45-ae42-2fa5-d848d1275fd1",
           "columnIds": [
@@ -2755,11 +2770,12 @@
           "y": 703.25,
           "direction": "right"
         },
-        "id": "24b32442-65bb-3951-78d3-fbc73245da13",
-        "relationshipType": "OneN"
+        "id": "24b32442-65bb-3951-78d3-fbc73245da13"
       },
       {
         "identification": false,
+        "relationshipType": "OneN",
+        "startRelationshipType": "Ring",
         "start": {
           "tableId": "86827993-8ed7-5ab5-1cc9-3d58eb62fac2",
           "columnIds": [
@@ -2778,11 +2794,12 @@
           "y": 809.5,
           "direction": "bottom"
         },
-        "id": "7f418f5d-5624-7af5-842e-1afc375bb16a",
-        "relationshipType": "OneN"
+        "id": "7f418f5d-5624-7af5-842e-1afc375bb16a"
       },
       {
         "identification": false,
+        "relationshipType": "OneN",
+        "startRelationshipType": "Ring",
         "start": {
           "tableId": "136da6a3-68df-9a2d-4ff6-d98f6ba4cf94",
           "columnIds": [
@@ -2801,11 +2818,12 @@
           "y": 561.5,
           "direction": "left"
         },
-        "id": "c33c876c-92ae-1c67-a5b3-49ef72c6a8d0",
-        "relationshipType": "OneN"
+        "id": "c33c876c-92ae-1c67-a5b3-49ef72c6a8d0"
       },
       {
         "identification": false,
+        "relationshipType": "ZeroN",
+        "startRelationshipType": "Ring",
         "start": {
           "tableId": "66b3ed61-2917-1a23-f95b-f0bece2271d0",
           "columnIds": [
@@ -2824,11 +2842,12 @@
           "y": 909.5,
           "direction": "bottom"
         },
-        "id": "b4f0fcea-e18c-3393-08c6-bcfff5156884",
-        "relationshipType": "ZeroOneN"
+        "id": "b4f0fcea-e18c-3393-08c6-bcfff5156884"
       },
       {
         "identification": false,
+        "relationshipType": "OneN",
+        "startRelationshipType": "Ring",
         "start": {
           "tableId": "4f7cd0ff-e04e-93c8-b94e-8f9b4355b803",
           "columnIds": [
@@ -2847,11 +2866,12 @@
           "y": 844.25,
           "direction": "right"
         },
-        "id": "44b0af99-cda3-52d5-6b57-6a24d52618a3",
-        "relationshipType": "OneN"
+        "id": "44b0af99-cda3-52d5-6b57-6a24d52618a3"
       },
       {
         "identification": false,
+        "relationshipType": "ZeroN",
+        "startRelationshipType": "Ring",
         "start": {
           "tableId": "4f7cd0ff-e04e-93c8-b94e-8f9b4355b803",
           "columnIds": [
@@ -2870,11 +2890,12 @@
           "y": 833,
           "direction": "top"
         },
-        "id": "ee3a695b-be19-7c0a-b627-d3b6e987129a",
-        "relationshipType": "ZeroOneN"
+        "id": "ee3a695b-be19-7c0a-b627-d3b6e987129a"
       },
       {
         "identification": false,
+        "relationshipType": "ZeroN",
+        "startRelationshipType": "Ring",
         "start": {
           "tableId": "86827993-8ed7-5ab5-1cc9-3d58eb62fac2",
           "columnIds": [
@@ -2893,11 +2914,12 @@
           "y": 939.25,
           "direction": "right"
         },
-        "id": "eb043ac0-780e-2503-59ef-0004e8ec3d4e",
-        "relationshipType": "ZeroOneN"
+        "id": "eb043ac0-780e-2503-59ef-0004e8ec3d4e"
       },
       {
         "identification": false,
+        "relationshipType": "ZeroN",
+        "startRelationshipType": "Ring",
         "start": {
           "tableId": "a303cd9a-1b9c-a889-f1be-614119e2cbd2",
           "columnIds": [
@@ -2916,11 +2938,12 @@
           "y": 1159.25,
           "direction": "left"
         },
-        "id": "02e2bb32-948b-49b3-dae0-3ab89d553cf7",
-        "relationshipType": "ZeroN"
+        "id": "02e2bb32-948b-49b3-dae0-3ab89d553cf7"
       },
       {
         "identification": false,
+        "relationshipType": "ZeroN",
+        "startRelationshipType": "Ring",
         "start": {
           "tableId": "86827993-8ed7-5ab5-1cc9-3d58eb62fac2",
           "columnIds": [
@@ -2939,11 +2962,12 @@
           "y": 1340.75,
           "direction": "right"
         },
-        "id": "0c037ab3-d51b-42cd-bbcb-b74ce0b9cb77",
-        "relationshipType": "ZeroN"
+        "id": "0c037ab3-d51b-42cd-bbcb-b74ce0b9cb77"
       },
       {
         "identification": false,
+        "relationshipType": "OneN",
+        "startRelationshipType": "Dash",
         "start": {
           "tableId": "86827993-8ed7-5ab5-1cc9-3d58eb62fac2",
           "columnIds": [
@@ -2962,11 +2986,12 @@
           "y": 1105,
           "direction": "top"
         },
-        "id": "785def04-17c9-e86a-8a92-4a4a48fcd820",
-        "relationshipType": "OneN"
+        "id": "785def04-17c9-e86a-8a92-4a4a48fcd820"
       },
       {
         "identification": false,
+        "relationshipType": "ZeroN",
+        "startRelationshipType": "Dash",
         "start": {
           "tableId": "3d2e0a9a-2cbe-8a5b-6320-d2c2dd4b3c4e",
           "columnIds": [
@@ -2985,11 +3010,12 @@
           "y": 725.5,
           "direction": "bottom"
         },
-        "id": "cd78edb4-448e-b788-f5e0-5c7846446416",
-        "relationshipType": "ZeroOneN"
+        "id": "cd78edb4-448e-b788-f5e0-5c7846446416"
       },
       {
         "identification": false,
+        "relationshipType": "ZeroN",
+        "startRelationshipType": "Dash",
         "start": {
           "tableId": "301546f6-617e-6639-b5f6-f6c703a43e80",
           "columnIds": [
@@ -3008,8 +3034,7 @@
           "y": 595,
           "direction": "top"
         },
-        "id": "7d292846-3a87-c461-aa3a-5b50695eff05",
-        "relationshipType": "ZeroOneN"
+        "id": "7d292846-3a87-c461-aa3a-5b50695eff05"
       }
     ]
   }

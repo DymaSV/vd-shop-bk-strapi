@@ -27,8 +27,8 @@
       "type": "datetime"
     },
     "product": {
-      "model": "product",
-      "via": "reviews"
+      "via": "reviews",
+      "model": "product"
     },
     "user": {
       "plugin": "users-permissions",

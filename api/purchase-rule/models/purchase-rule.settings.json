@@ -15,8 +15,8 @@
       "type": "uid"
     },
     "products": {
-      "collection": "product",
-      "via": "purchase_rule"
+      "via": "purchase_rule",
+      "collection": "product"
     },
     "Title": {
       "type": "json"

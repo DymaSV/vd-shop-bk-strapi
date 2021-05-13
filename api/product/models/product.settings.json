@@ -27,8 +27,8 @@
       "type": "uid"
     },
     "purchase_rule": {
-      "via": "products",
-      "model": "purchase-rule"
+      "model": "purchase-rule",
+      "via": "products"
     },
     "details": {
       "collection": "detail",
@@ -43,8 +43,8 @@
       "via": "products"
     },
     "reviews": {
-      "via": "product",
-      "collection": "review"
+      "collection": "review",
+      "via": "product"
     },
     "Name": {
       "type": "json"
@@ -58,6 +58,9 @@
     "IsActive": {
       "type": "boolean",
       "default": false
+    },
+    "IdCurrency": {
+      "model": "currency"
     }
   }
 }
